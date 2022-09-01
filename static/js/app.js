@@ -56,18 +56,28 @@ function updateFilters() {
   }
 
   // 7. Use this function to filter the table when data is entered.
-  function filterTable(filterVariables) {
+  function filterTable() {
   
     // 8. Set the filtered data to the tableData.
     let filteredData = tableData;
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-    for (let row in filterVariables) {
-        filteredData = filteredData.filter(row => row.val === filterVariables[row]);
+    if (filterVariables.datetime) {
+        filteredData = filteredData.filter(row => row.datetime === filterVariables.datetime); 
     }
-
-    // filteredData = filteredData.filter(row => row.filterVariables[filterId] === filterVariables[filterId].values);
+    if (filterVariables.city) {
+        filteredData = filteredData.filter(row => row.city === filterVariables.city); 
+    }
+    if (filterVariables.state) {
+        filteredData = filteredData.filter(row => row.state === filterVariables.state); 
+    }
+    if (filterVariables.country) {
+        filteredData = filteredData.filter(row => row.country === filterVariables.country); 
+    }
+    if (filterVariables.shape) {
+        filteredData = filteredData.filter(row => row.shape === filterVariables.shape); 
+    }
   
     // 10. Finally, rebuild the table using the filtered data
     buildTable(filteredData);
