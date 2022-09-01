@@ -1,4 +1,4 @@
-// import the data from data.js
+// Import the data from data.js
 const tableData = data;
 
 // Reference the HTML table using d3
@@ -24,7 +24,7 @@ function buildTable(data) {
 }
 
 // Create a function to filter the table data on the web page
-function handleChange(event) {
+function handleChange() {
     // Grab the datetime value from the filter
     let date = d3.select("#datetime").property("value");
     let filteredData = tableData;
@@ -38,7 +38,7 @@ function handleChange(event) {
 }
 
 // Attach an event to listen for the form filter
-d3.selectAll("#filter-btn").on("change", handleChange)
+d3.selectAll("#filter").on("change", handleChange);
 
 // Build the table when the page loads
 buildTable(tableData);
