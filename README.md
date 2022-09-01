@@ -21,7 +21,7 @@ Once started, the storyboarding process to conceptualize a design, start fragmen
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-4">
-            <p>        
+            <p>Walking through the layout to building each element and seeing the structure take place was extremely satisfying. And you can definitely see how the storyboarding process lends itself to really any design process, taking a vision and breaking it into smaller building tasks to eventually arive at something pretty impressive.</p>
         </div>
         <div class="col-md-8">
             <img src="https://github.com/cb19weber/UFOs/blob/main/static/images/page_example.png">
@@ -30,8 +30,10 @@ Once started, the storyboarding process to conceptualize a design, start fragmen
 </div>
 
 ### Analysis of Outcomes Based on Challenges and Goals
-
+Without question the biggest challenge of the weekly challenge was looping through the filter elements to create a dynamically updating filter. Using d3 to read user activity and respond is such an incredible and powerful tool for which there are infinite applications to enhance user experience. This same general page design could be recreated to analyze financial instruments and reports, geographical data, housing searches, you name it.
 
 ### Challenges and Difficulties Encountered
+I overcame the looping challenge and was able to arive at a really cool end point for this module that I hope Dana would be very satisfied with. I'm also really looking forward to seeing how there might be some integration potential between Python and JavaScript. I noticed that the dataset used for the UFO sightings looked strikingly similar to a Python list of dictionaries.
 
 ## Results
+I read a great article this week on the pathway of a developer. As we're continuing to branch out into other tools and languages, it can feel a bit overwhelming. But being able to see the tools in action is really incredible. I'm excited to continue the learning process and expand on JavaScript.
