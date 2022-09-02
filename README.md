@@ -29,6 +29,12 @@ Once started, the storyboarding process to conceptualize a design, start fragmen
     </div>
 </div>
 
+In viewing the final product, the layout is pretty good. But since the comments can be pretty lengthy, I'd almost like to move the filtering options up into a sidebar where they might be better scaled.
+
+I'd also love to see the dataset updated to include images of UFO sightings. Building off of last week, it would be really cool to see a webscraping application designed to grab images of filtered sightings from a google search or something. It would make the page a much more integrative application and give users reason to come back and visit.
+
+I also wish the navbar could expand and be hidden when not used, and contain some additional links. There's room for a lot of expansion from this site to explain some of the stories behind the sightings in the table. The overall design feels a bit limited in that way.
+
 ### Analysis of Outcomes Based on Challenges and Goals
 Without question the biggest challenge of the weekly challenge was looping through the filter elements to create a dynamically updating filter. Using d3 to read user activity and respond is such an incredible and powerful tool for which there are infinite applications to enhance user experience. This same general page design could be recreated to analyze financial instruments and reports, geographical data, housing searches, you name it.
 
